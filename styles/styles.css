@@ -45,6 +45,7 @@ aside {
 aside img {
     width: 400px;
     height: auto;
+    display: inline-block;
 }
 
 main img {
