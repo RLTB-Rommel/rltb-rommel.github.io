@@ -83,13 +83,6 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-p {
-    margin: 0; /* Reset margin to remove extra space around paragraphs */
-    padding: 25px;
-    font-size: 1.1rem;
-    line-height: 1.6;
-}
-
 footer {
     margin-top: 15px;
     border: 1px solid var(--accent2-color);
