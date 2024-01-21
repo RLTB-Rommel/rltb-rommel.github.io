@@ -52,6 +52,12 @@ h3, h4, h5, h6, h7 {
     margin-top: 15px;
 }
 
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+
 p {
     margin: 0;
     padding: 25px;
