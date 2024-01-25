@@ -1,53 +1,96 @@
-nav {
-    background-color:steelblue;
-    padding: 10px;
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+nav {
+    background-color: steelblue;
+    padding: 1px;
+    max-width:840px;
+    
+}
+
 nav a {
     color: white;
     display: block;
+    padding: .1px;
+    margin-bottom: 10px;
+}
+body {
+    
+    max-width: 960px;
+    margin: 0 auto;
     padding: 20px;
+    box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
 }
-h1{
-    color:steelblue;
+h1 {
+    color: steelblue;
 }
+
 img {
-    width:150px;
-    height:auto;
-    border:1px solid steelblue;
-    padding:2px;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
     box-shadow: 0 0 30px gray;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
 }
-p{
-    padding: 0px;
+
+p {
+    padding: 0;
 }
+
 main {
     max-width: 840px;
 }
+
 aside {
-    width: 35em;
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
-    padding: 1em;
-    background-color: #eee;
+    width: 840px;
+    margin-left: 55px;
+    /*border: 1px solid rgba(0, 0, 0, 0.2);
+    /*padding-left: 1em;
+    padding-right: 1em;*/
+    /*background-color: #eee;*/
     color: #333;
     text-align: center;
 }
-aside img {
-    width: 400px;
-    height: auto;
-    
+
+aside h2 {
+    position: absolute;
+    top: 605px;
+    left: 355px;
+    color: steelblue;
 }
+
+aside img {
+    width: 450px;
+    height: auto;
+}
+
 main img {
     width: 150px;
     height: auto;
-    display: inline-block;
-    margin-right: 10px
+    float: right;
+    margin-right: 1px;
+    margin-left: 10px;
 }
 
-footer{
+footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selector */
+
+.box {
+    margin: 1rem;   
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: .9rem;
+    width:840px;
+    background-color: #ddd;
+    color: #000;
 }
