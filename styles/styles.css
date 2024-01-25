@@ -23,7 +23,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
+    box-shadow: 0 0 20px rgba(219, 193, 214, 0.8);
 }
 
 h1 {
@@ -48,19 +48,15 @@ main {
     max-width: 840px;
 }
 
-/*aside {
-    /*display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 840px;
-    margin: 0 auto; /* Center the box horizontally */
-    /*border: 50000000px solid rgba(0, 0, 0, 0.2);
-    padding-left: .1em;
-    padding-right: .1em;
+aside {
+    width: 35em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1em;
+    background-color: #eee;
     color: #333;
     text-align: center;
-}*/
+}
 
 aside h2 {
     position: absolute;
