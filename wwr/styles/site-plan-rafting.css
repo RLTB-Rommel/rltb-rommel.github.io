@@ -48,8 +48,8 @@ h2 {
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
-    font-size: 1.8rem;
-    margin-top: 15px;
+    /*font-size: 1.8rem;
+    margin-top: 15px;*/
 }
 
 header {
