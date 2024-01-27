@@ -26,25 +26,7 @@ body {
     border: 1px solid var(--accent2-color);
     box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
 }
-/*
-h1 {
-    font-family: var(--heading-font);
-    color: var(--accent2-color);
-    font-size: 3rem;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: var(--accent1-color);
-    padding: 15px;
-    text-align: left;
-}
 
-h2 {
-    font-family: var(--heading-font);
-    color: var(--accent2-color);
-    font-size: 2rem;
-    margin-top: 20px;
-}
-*/
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
