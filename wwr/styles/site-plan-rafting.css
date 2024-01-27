@@ -26,7 +26,7 @@ body {
     border: 1px solid var(--accent2-color);
     box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
 }
-
+/*
 h1 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
@@ -44,8 +44,8 @@ h2 {
     font-size: 2rem;
     margin-top: 20px;
 }
-
-h3, h4, h5, h6, h7 {
+*/
+h1, h2, h3, h4, h5, h6, h7 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
     font-size: 1.8rem;
