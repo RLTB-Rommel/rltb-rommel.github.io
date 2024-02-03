@@ -141,7 +141,7 @@ section p {
     margin-left: 20px;
     top: 20px; 
 }
-
+/*
 section p1 {
     position: relative;
     font: var(--heading-font);
@@ -151,9 +151,9 @@ section p1 {
     font-style: italic;
     margin-left: 0px;
     top: 340px;
-    right: 500px; /* Adjust the distance from the right side */
+    right: 500px; 
     transform: translateY(-50%);
-    color: #1f44b4; /* Adjust the text color */
+    color: #1f44b4; 
 }
 
 section p2 {
@@ -164,9 +164,9 @@ section p2 {
     font-weight: bold;
     font-style: italic;
     top: 1890px;
-    right: 850px; /* Adjust the distance from the right side */
+    right: 850px; 
     transform: translateY(-50%);
-    color: #1f44b4; /* Adjust the text color */
+    color: #1f44b4; 
 }
 
 section p3 {
@@ -176,9 +176,9 @@ section p3 {
     font-weight: bold;
     font-style: italic;
     top: 2260px;
-    right: 820px; /* Adjust the distance from the right side */
+    right: 820px; 
     transform: translateY(-50%);
-    color: #1f44b4; /* Adjust the text color */
+    color: #1f44b4; 
 }
 
 section p4 {
@@ -188,9 +188,9 @@ section p4 {
     font-weight: bold;
     font-style: italic;
     top: 2650px;
-    right: 780px; /* Adjust the distance from the right side */
+    right: 780px; 
     transform: translateY(-50%);
-    color: #1f44b4; /* Adjust the text color */
+    color: #1f44b4;
 }
 
 section p5 {
@@ -203,15 +203,16 @@ section p5 {
     right: 780px;
     transform: translateY(-50%);
     color: #1f44b4;
-}
 
+}
+*/
 section img {
     position: relative;
     float: left;
     margin-left: 10px;
-    margin-bottom: 50px; 
+    margin-bottom: 0px; 
     width: 500px; 
-    height: auto;
+    height: 350px;
     
 }
 
