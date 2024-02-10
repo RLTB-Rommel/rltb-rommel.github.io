@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    height: 100vh;
+  }
+  
+  header, section, footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  header, section, footer {
+    grid-row: span 1;
+  }
+  
+  main {
+    grid-row: span 2;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .text-column, .image-column, .text-column-2 {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-column img {
+    max-width: 100%;
+    max-height: 100%;
+  }
