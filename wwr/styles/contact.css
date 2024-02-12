@@ -173,17 +173,6 @@ article p {
     max-height: 100%;
 }
 
-.fourth-row {
-    grid-row: span 1;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 5px;
-    padding: 20px;
-    margin-top: 1px;
-    margin-bottom: 15px;
-    box-shadow: 0 0 20px rgba(176, 224, 230, 0.8);
-}
-
 .fifth-row {
     grid-row: span 1;
     display: grid;
@@ -227,6 +216,7 @@ section h2 {
     max-width: 100%;
     max-height: 100%;
 }
+
 
 form {
     width: 80%;
@@ -272,7 +262,8 @@ input[type=text], select, textarea {
     padding: 6px;
     margin-left: 90px;
   }
-  
+
+
 .footer {
     display: flex;
     justify-content: flex-end;
