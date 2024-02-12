@@ -106,13 +106,24 @@
                 <option value="Website Suggestion">Website Suggestion</option>
             </select>
             
-            <label for="Message">Message</label>
-            <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
-            
-            <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+<label>Preferred Contact Method:</label>
+                <input type="radio" id="contact-email" name="contact-method" value="email">
+                <label for="contact-email">Email</label>
+                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                <label for="contact-phone">Phone</label>
+                <input type="radio" id="contact-none" name="contact-method" value="none">
+                <label for="contact-none">None</label>
 
-            <input type="submit" value="Please Proceed">
+                <label for="Message">Message</label>
+                <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+                <label for="newsletter">Subscribe to the monthly newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+
+                <button type="submit">Please Proceed</button>
+            </form>
+        </div>
+           
         </form>
     </div>
 
