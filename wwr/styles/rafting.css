@@ -108,7 +108,7 @@ margin: 0 1em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 0px; /* Corrected margin property */
+    margin-left: 0; /* Corrected margin property */
 }
 
 #home h2{
