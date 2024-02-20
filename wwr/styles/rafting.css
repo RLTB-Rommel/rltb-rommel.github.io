@@ -299,6 +299,12 @@ font-size: 0.8em;
     gap: 20px;
     }
 
+    .grid-container_a {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        }
+
     .grid-item {
     background-color: #fff;
     padding: 20px;
@@ -313,6 +319,19 @@ font-size: 0.8em;
     margin: 0 auto;
     }
 
+    .grid-item_a {
+        background-color: #fff;
+        padding: 1px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        .grid-item_a img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        }
     #newsletter-form {
     max-width: 600px;
     margin: 0 auto;
