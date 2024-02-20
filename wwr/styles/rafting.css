@@ -295,7 +295,7 @@ font-size: 0.8em;
 
     .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 20px;
     }
 
@@ -357,6 +357,7 @@ font-size: 0.8em;
 
     footer {
         background-color: #3366cc;
+        margin-top: 30px;
         color: #fff;
         text-align: center;
         padding: 1em;
@@ -702,42 +703,9 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
     background-color: #e6e6e6;
 }
-.learn-more-btn1 {
-    display: inline-block;
-    position: absolute;
-    padding: 10px 20px;
-    background-color: skyblue;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 45px;
-    margin-left: 80px;
-}
-
-.learn-more-btn2 {
-    display: inline-block;
-    position: absolute;
-    padding: 10px 20px;
-    background-color: skyblue;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 45px;
-    margin-left: 80px;
-}
-
-.learn-more-btn3 {
-    display: inline-block;
-    position: absolute;
-    padding: 10px 20px;
-    background-color: skyblue;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 80px;
-}
-
+.learn-more-btn1,
+.learn-more-btn2,
+.learn-more-btn3,
 .learn-more-btn4 {
     display: inline-block;
     position: absolute;
@@ -746,6 +714,6 @@ tbody tr:nth-child(even) {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: -25px;
     margin-left: 80px;
+    margin-top: -10px;
 }
