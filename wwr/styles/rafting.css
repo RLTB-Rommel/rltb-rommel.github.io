@@ -14,13 +14,13 @@ header {
 }
 
 .logo {
-position: absolute;
-top: 8px;
-left: 50%;
-transform: translateX(-50%);
-max-height:300px; 
-z-index: 2;
-border-image: 10px 10px 0 rgb(233, 239, 241);
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 300px;
+    z-index: 2;
+    border: 10px solid rgb(233, 239, 241); /* Updated border style */
 }
 
 .hero {
@@ -100,15 +100,15 @@ margin: 0 1em;
 }
 
 #home {
-background: linear-gradient(to right, #3366cc, #66cc99); /* Set gradient for #home section */
-color: #fff;
-width: 100%;
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin: left 0px; ;
+    background: linear-gradient(to right, #3366cc, #66cc99);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px; /* Corrected margin property */
 }
 
 #home h2{
@@ -342,9 +342,9 @@ font-size: 0.8em;
         text-align: center;
         padding: 1em;
         display: grid;
-        grid-template-columns: 1 fr 1fr 1fr; /* Two columns */
-        align-items: right;
-        }
+        grid-template-columns: 1fr 1fr 1fr; /* Corrected grid-template-columns */
+        align-items: center; /* Updated align-items value */
+    }
 
         .footer-left {
         grid-column: 2;
