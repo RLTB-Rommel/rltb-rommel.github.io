@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: url('images/home1.jpg') center/cover no-repeat; 
+    /*background: url('images/home1.jpg') center/cover no-repeat;*/
     color: #fff;
     padding: 1em;
     text-align: center;
