@@ -5,39 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>River Adventure Rafting</title>
-    <link rel="stylesheet" href="styles/rafting_test.css">
+    <link rel="stylesheet" href="styles/rafting.css">
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">-->
 
     <style>
-    header {
-        background: url('images/home1.jpg') center/cover no-repeat; 
-        color: #fff;
-        padding: 1em;
-        text-align: center;
-        height: 480px;
-    }
+        header {
+            background: url('images/home1.jpg') center/cover no-repeat; 
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            height: 480px;
+        }
 
-    footer {
-        background-color: #3366cc;
-        color: #fff;
-        text-align: center;
-        padding: 1em;
-        display: grid;
-        grid-template-columns: 1 fr 1fr 1fr; /* Two columns */
-        align-items: right;
+        footer {
+            background-color: #3366cc;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns */
+            align-items: center; /* Updated align-items value */
         }
 
         .footer-left {
-        grid-column: 2;
+            grid-column: 1;
+            text-align: left; /* Align text to the left */
         }
 
         .footer-right {
-        grid-column: 3;
-        text-align: right;
+            grid-column: 2;
+            text-align: right;
         }
 
         .social-icons a {
-        margin-left: 1em;
+            margin-left: 1em;
         }
     </style>
 </head>
@@ -75,13 +76,14 @@
             <!--<h1>Rapids Water Rafting</h1>-->
             <article>
                 <img src="images/employees.jpg" alt="Rafting Employees">
+                <h2>About Us</h2> <!-- Changed to h2 for the article heading -->
                 <p>Our company is for thrill-seeking individuals aged 18 to 45, who have a moderate to high disposable
                     income and a passion for outdoor adventure. These enthusiasts are eager to break free from their
                     daily routines and seek exhilarating experiences. When accessing the website, they expect
                     comprehensive information about available rafting trips, including difficulty levels, durations,
-                    safety measures, and pricing details.</br></br>  
+                    safety measures, and pricing details.</p> <!-- Removed unnecessary line breaks -->
                     
-                    Embark on an unforgettable journey with Rapids Water Rafting Adventure, where the river's pulse
+                <p>Embark on an unforgettable journey with Rapids Water Rafting Adventure, where the river's pulse
                     meets the adventurer's heartbeat! Join Rapids and break free from the ordinary! Our trips are
                     curated for those who seek the extraordinary — a perfect blend of adrenaline, nature, and
                     camaraderie. Rapids Water Rafting Adventure — where every ripple tells a story of serenity and
@@ -110,10 +112,6 @@
             <h2 style="color: rgb(170, 15, 15);">Adventure Awaits You!</h2>
         </section>
 
-
-
-
-
         <div class="grid-container">
             <div class="grid-item">
                 <img src="images/calm.jpg" alt="Rafting Image 1">
@@ -135,7 +133,6 @@
                 <h3>White Water Rafting</h3>
                 <p>Embark on a heart-pounding journey with White Water Rafting. Navigate through turbulent waters, conquer challenging rapids, and immerse yourself in the ultimate adventure. Ideal for thrill-seekers craving excitement and the thrill of the untamed river.</p>
             </div>
-
         </div>
 
     </main>
