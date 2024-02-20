@@ -362,8 +362,8 @@ font-size: 0.8em;
         text-align: center;
         padding: 1em;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* Corrected grid-template-columns */
-        align-items: center; /* Updated align-items value */
+        grid-template-columns:1fr 1fr 1fr;
+        align-items: center;
     }
 
         .footer-left {
